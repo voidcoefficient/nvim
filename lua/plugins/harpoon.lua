@@ -50,6 +50,10 @@ return {
         { "<localleader>d", function() harpoon:list():remove() end, desc = "remove from harpoon", mode = "n" },
         { "<localleader>n", function() harpoon:list():next() end, desc = "next in harpoon list", mode = "n" },
         { "<localleader>p", function() harpoon:list():prev() end, desc = "prev in harpoon list", mode = "n" },
+        { "<localleader>h", function() harpoon:list():select(1) end, desc = "select harpoon 1", mode = "n" },
+        { "<localleader>j", function() harpoon:list():select(2) end, desc = "select harpoon 2", mode = "n" },
+        { "<localleader>k", function() harpoon:list():select(3) end, desc = "select harpoon 3", mode = "n" },
+        { "<localleader>l", function() harpoon:list():select(4) end, desc = "select harpoon 4", mode = "n" },
         { "<leader><leader>", function() toggle_telescope(harpoon:list()) end, desc = "list harpoon", mode = "n" },
       }
     end,
