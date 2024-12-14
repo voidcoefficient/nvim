@@ -48,7 +48,15 @@ return {
           },
         },
         lualine_x = {},
-        lualine_y = { "os.date('%H:%M')" },
+        lualine_y = {
+          {
+            "os.date('%H:%M')",
+            padding = {
+              left = 1, -- `os.date` formats to `"15:00 " for some reason`. this centers it
+              right = 0, -- doesn't matter
+            },
+          },
+        },
         lualine_z = { "filename" },
       },
       inactive_sections = {
