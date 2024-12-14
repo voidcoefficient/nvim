@@ -25,7 +25,7 @@ return {
         ignore_focus = {},
         always_divide_middle = true,
         always_show_tabline = true,
-        globalstatus = false,
+        globalstatus = true,
         refresh = {
           statusline = 100,
           tabline = 100,
@@ -39,14 +39,17 @@ return {
           "%=",
           {
             "harpoon2",
+            icons_enabled = true,
+            icon = "⥥",
             indicators = { "1", "2", "3", "4" },
             active_indicators = { "[1]", "[2]", "[3]", "[4]" },
             _separator = " ",
+            no_harpoon = "no harpoons",
           },
         },
         lualine_x = {},
         lualine_y = { "os.date('%H:%M')" },
-        lualine_z = { "filetype" },
+        lualine_z = { "filename" },
       },
       inactive_sections = {
         lualine_a = {},

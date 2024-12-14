@@ -24,7 +24,7 @@ return {
 
         require("telescope.pickers")
           .new({}, {
-            prompt_title = "Harpoon",
+            prompt_title = "⥥ harpoons",
             finder = make_finder(),
             previewer = conf.file_previewer {},
             sorter = conf.generic_sorter {},
