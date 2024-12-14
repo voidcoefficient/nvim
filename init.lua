@@ -20,3 +20,11 @@ vim.opt_global.tabstop = 2
 
 require "lazy_setup"
 require "polish"
+
+-- custom keybinds
+-- TODO move
+local wk = require "which-key"
+wk.add {
+  { "<localleader><localleader>", "<c-w><c-w>", desc = "switch windows" },
+  { "<localleader>b", "<cmd>Telescope buffers<cr>", desc = "list buffers" },
+}
