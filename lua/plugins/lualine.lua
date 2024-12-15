@@ -36,13 +36,12 @@ return {
         lualine_a = { "mode" },
         lualine_b = { "diff", "diagnostics" },
         lualine_c = {
-          "%=",
           {
             "harpoon2",
             icons_enabled = true,
             icon = "⥥",
             indicators = { "h", "j", "k", "l" },
-            active_indicators = { "H", "J", "K", "L" },
+            active_indicators = { "[H]", "[J]", "[K]", "[L]" },
             _separator = " ",
             no_harpoon = "no harpoons",
           },
