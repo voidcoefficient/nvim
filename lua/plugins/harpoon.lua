@@ -28,6 +28,7 @@ return {
             finder = make_finder(),
             previewer = conf.file_previewer {},
             sorter = conf.generic_sorter {},
+            initial_mode = "normal",
             attach_mappings = function(prompt_buffer_number, map)
               map("i", "<C-d>", function()
                 local state = require "telescope.actions.state"
