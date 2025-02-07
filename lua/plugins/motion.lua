@@ -49,6 +49,7 @@ return {
     {
       "<localleader> ",
       mode = { "n" },
+      desc = "flash advanced diagnostics",
       function()
         require("flash").jump {
           matcher = function(win)
@@ -72,7 +73,6 @@ return {
           end,
         }
       end,
-      "flash advanced diagnostics",
     },
   },
 }
