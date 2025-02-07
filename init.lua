@@ -26,6 +26,5 @@ require "polish"
 local wk = require "which-key"
 wk.add {
   { "<localleader>m", "<c-w><c-w>", desc = "switch windows" },
-  { "<localleader>b", "<cmd>Telescope buffers initial_mode=normal<cr>", desc = "list buffers" },
   { "<localleader>u", "<cmd>Telescope jumplist initial_mode=normal<cr>", desc = "list jumplist" },
 }
