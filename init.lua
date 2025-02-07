@@ -29,4 +29,8 @@ wk.add {
   { "<localleader>u", "<cmd>Telescope jumplist initial_mode=normal<cr>", desc = "list jumplist" },
   { "<localleader>q", "<cmd>Telescope quickfix initial_mode=normal<cr>", desc = "list quickfix" },
   { "<localleader>Q", "<cmd>Telescope quickfixhistory initial_mode=normal<cr>", desc = "list quickfixhistory" },
+  { "<localleader>w", desc = "write/neorg" },
+  { "<localleader>wj", "<cmd>Neorg journal today<cr><cmd>Neorg inject-metadata<cr>", desc = "journal today" },
+  { "<localleader>wi", "<cmd>Neorg inject-metadata<cr>", desc = "inject metadata" },
+  { "<localleader>wu", "<cmd>Neorg update-metadata<cr>", desc = "update metadata" },
 }
