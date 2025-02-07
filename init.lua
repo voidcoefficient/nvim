@@ -27,4 +27,6 @@ local wk = require "which-key"
 wk.add {
   { "<localleader>m", "<c-w><c-w>", desc = "switch windows" },
   { "<localleader>u", "<cmd>Telescope jumplist initial_mode=normal<cr>", desc = "list jumplist" },
+  { "<localleader>q", "<cmd>Telescope quickfix initial_mode=normal<cr>", desc = "list quickfix" },
+  { "<localleader>Q", "<cmd>Telescope quickfixhistory initial_mode=normal<cr>", desc = "list quickfixhistory" },
 }
