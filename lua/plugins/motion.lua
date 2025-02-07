@@ -49,7 +49,7 @@ return {
     {
       "<localleader> ",
       mode = { "n" },
-      desc = "flash advanced diagnostics",
+      desc = "flash diagnostics",
       function()
         require("flash").jump {
           matcher = function(win)
