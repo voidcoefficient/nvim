@@ -24,7 +24,7 @@ return {
   keys = {
     { "<localleader><localleader>", mode = { "n" }, function() require("flash").jump() end, desc = "flash" },
     {
-      "<localleader>t",
+      "<localleader>T",
       mode = { "n" },
       function() require("flash").treesitter {} end,
       desc = "flash treesitter",
