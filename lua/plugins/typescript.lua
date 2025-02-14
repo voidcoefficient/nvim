@@ -15,12 +15,12 @@ return {
         -- java = formatters.lsp,
         javascript = formatters.lsp,
         json = formatters.lsp,
-        -- lua = formatters.lsp,
+        lua = formatters.lsp,
         markdown = formatters.prettierd,
-        -- rust = formatters.lsp,
-        -- sh = formatters.shfmt,
-        -- typescript = formatters.prettierd,
-        -- typescriptreact = formatters.prettierd,
+        rust = formatters.lsp,
+        sh = formatters.shfmt,
+        typescript = formatters.prettierd,
+        typescriptreact = formatters.prettierd,
         yaml = formatters.lsp,
 
         -- Optional: fallback formatter to use when no formatters match the current filetype
