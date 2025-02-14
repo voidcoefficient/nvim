@@ -22,7 +22,8 @@ require "lazy_setup"
 require "polish"
 
 -- custom keybinds
--- TODO move
+-- TODO: move
+-- TODO: hydra-mode..?
 local wk = require "which-key"
 wk.add {
   { "<localleader>m", "<c-w><c-w>", desc = "switch windows" },
@@ -33,4 +34,6 @@ wk.add {
   { "<localleader>wj", "<cmd>Neorg journal today<cr><cmd>Neorg inject-metadata<cr>", desc = "journal today" },
   { "<localleader>wi", "<cmd>Neorg inject-metadata<cr>", desc = "inject metadata" },
   { "<localleader>wu", "<cmd>Neorg update-metadata<cr>", desc = "update metadata" },
+  { "<localleader>wu", "<cmd>Neorg update-metadata<cr>", desc = "update metadata" },
+  { "<ESC>", "<C-\\><C-n>", desc = "exit terminal mode", mode = "t" },
 }
